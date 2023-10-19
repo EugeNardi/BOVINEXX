@@ -1,0 +1,76 @@
+.background-image {
+    background-image: url('https://www.ctuyuti.com.ar/wp-content/uploads/2020/07/vaquillonas-polled-hereford-tuyuti.jpg'); /* Reemplaza con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; 
+  }
+
+  
+ .background{
+    background-color: rgba(128, 128, 128, 0.8);
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 450px;
+    height: 300px;
+    border-radius: 3px;
+ }
+ 
+
+
+ .register {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+
+}
+
+.navbar{
+    background-color: rgba(128, 128, 128, 0.8);
+
+}
+
+
+.navbar a{
+    margin-left:20px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+    color: #E71D1D;
+    text-decoration: none;
+}
+
+
+
+form.register input{
+    width: 300px;
+    margin-bottom: 15px;
+    outline: none;
+
+}
+
+
+.register button{
+    border: none;
+    background-color: red;
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+form a{
+    color:black
+
+}
+
+form h1{
+    margin-top: 25px;
+}
