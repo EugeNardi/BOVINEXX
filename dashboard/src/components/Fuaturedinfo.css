@@ -1,0 +1,78 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Featured Container */
+.featured {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 10px; /* Añadido margen inferior para evitar superposición */
+}
+
+/* Featured Item Styles */
+.featuredItem {
+    flex: 1;
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+    height: 340px; /* Fijar altura para ambos cuadros */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Asegura que el contenido se distribuya uniformemente */
+}
+
+.featuredItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Title Styles */
+.featuredTitle {
+    font-size: 28px;
+    margin: 5px 10px;
+    font-weight: 500;
+    color: #333333;
+}
+
+/* Money Container Styles */
+.featuredMoneyContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.featuredMoneyContainer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Money Styles */
+.featuredMoney {
+    font-size: 40px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.featuredMoneyRate {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #7f8c8d;
+}
+
+/* Subtitle Styles */
+.featuredSub {
+    color: #7f8c8d;
+    font-size: 16px;
+}
+
+/* Calendar Scaling */
+.scaledCalendar {
+    transform: scale(0.9);
+}

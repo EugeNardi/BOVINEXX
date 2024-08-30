@@ -45,49 +45,8 @@ export const userData = [
   ];
 
 
-  export const userRows = [
-    { id: 1, 
-      username:"xxx-999",
-      avatar:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pregonagropecuario.com%2Fcat.php%3Ftxt%3D8456&psig=AOvVaw3GgsEIXEfFLiRE0A8aVLEq&ust=1686832480955000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLjPgPDiwv8CFQAAAAAdAAAAABAT",
-      email:"angus",
-      status:"Completa",
-      transaction:"228kg"
-    },
-    { id: 2, 
-      username:"xxx-998",
-      avatar:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pregonagropecuario.com%2Fcat.php%3Ftxt%3D8456&psig=AOvVaw3GgsEIXEfFLiRE0A8aVLEq&ust=1686832480955000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLjPgPDiwv8CFQAAAAAdAAAAABAT",
-      email:"angus",
-      status:"Falta Aftosa",
-      transaction:"241kg"
-    },
-    { id: 3, 
-      username:"xxx-997",
-      avatar:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pregonagropecuario.com%2Fcat.php%3Ftxt%3D8456&psig=AOvVaw3GgsEIXEfFLiRE0A8aVLEq&ust=1686832480955000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLjPgPDiwv8CFQAAAAAdAAAAABAT",
-      email:"angus",
-      status:"Completa",
-      transaction:"232kg"
-    },
-    { id: 4, 
-      username:"xxx-996",
-      avatar:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pregonagropecuario.com%2Fcat.php%3Ftxt%3D8456&psig=AOvVaw3GgsEIXEfFLiRE0A8aVLEq&ust=1686832480955000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLjPgPDiwv8CFQAAAAAdAAAAABAT",
-      email:"angus",
-      status:"Completa",
-      transaction:"220kg"
-    },
-  ];
 
-  export const productRows = [
-    {
-      id: 1,
-      name: "Peirano Viamonte",
-      img:
-        "",
-      stock: "44nt",
-      status: "Completa",
-      price: "12/06/23",
-    },
 
-  ];
 
 
   export const productData = [

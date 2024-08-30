@@ -1,0 +1,81 @@
+.container {
+    width: 400%;
+    display: flex;
+  }
+  
+  .editFormContainer {
+    margin: 20px;
+    width: 90%;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 20px; /* Gap between the form groups */
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Ensure there's a 10px gap between the label and input */
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  input, select {
+    width: 100%;
+    height: 50px;
+    padding: 12px;
+    margin-bottom: 20px; /* Space below the input fields */
+    border: 1px solid var(--input);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input:focus, select:focus {
+    border-color: var(--ring);
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button {
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transform: translateY(2px);
+  }
+  
+  .img-preview-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .img-preview-container img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .icon-upload {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: grey;
+    margin-bottom: 10px;
+  }
+  
+  .icon-upload svg {
+    margin-right: 10px;
+  }
+  
