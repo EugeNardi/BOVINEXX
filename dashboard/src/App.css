@@ -1,6 +1,7 @@
 .container{
   display: flex;
   
+<<<<<<< HEAD
 }
 
 
@@ -739,4 +740,661 @@ max-width: 800px;
 .buscadorrp .MuiInputLabel-root.Mui-focused {
   color: #000000;
   font-weight: 500;
+=======
+>>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
 }
+
+
+.container-home{
+display: flex;
+margin-top: 0px;
+margin:  0  100px;
+max-width: 800px;
+}
+
+
+.home{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+  }
+  
+  
+  .homeWidgets{
+      display: flex;
+      margin-top: 10px;
+  }
+
+
+
+
+
+
+  .newProduct {
+     flex: 4;
+   }
+   
+   .addProductForm {
+     margin-top: 10px;
+   }
+   
+   .addProductItem {
+     width: 250px;
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 10px;
+   }
+   
+   .addProductItem > label {
+     color: gray;
+     font-weight: 600;
+     margin-bottom: 10px;
+   }
+   
+   .addProductItem > input {
+     padding: 10px;
+   }
+   
+   .addProductItem > select {
+     padding: 10px;
+   }
+   
+   .addProductButton {
+     margin-top: 10px;
+     padding: 7px 10px;
+     border: none;
+     border-radius: 10px;
+     background-color: #E71D1D;
+     color: white;
+     font-weight: 600;
+     cursor: pointer;
+   }
+ 
+
+   .newUser {
+     flex: 4;
+   }
+   
+   .newUserForm {
+     display: flex;
+     flex-wrap: wrap;
+   }
+   
+   .newUserItem {
+     width: 400px;
+     display: flex;
+     flex-direction: column;
+     margin-top: 10px;
+     margin-right: 20px;
+   }
+   
+   .newUserItem>label {
+     margin-bottom: 10px;
+     font-size: 14px;
+     font-weight: 600;
+     color: rgb(151, 150, 150);
+   }
+   
+   .newUserItem>input {
+     height: 20px;
+     padding: 25px;
+     border: 1px solid gray;
+     border-radius: 5px;
+   }
+   
+   .newUserGender>input {
+     margin-top: 15px;
+   }
+   
+   .newUserGender>label{
+       margin: 10px;
+       font-size: 18px;
+       color: #555;
+   }
+   
+   .newUserSelect{
+       height: 40px;
+       border-radius: 5px;
+   }
+   
+   .newUserButton{
+       width: 200px;
+       border: none;
+       background-color: #E71D1D;
+       color: white;
+       padding: 7px 10px;
+       font-weight: 600;
+       border-radius: 10px;
+       margin-top: 30px;
+       cursor: pointer;
+   }
+
+   .userList{
+  
+    display: flex;
+    width: 1100px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 100px;
+  }
+  
+  .userListUser{
+     display: flex;
+     align-items: center;
+    
+  }
+  
+  .userListUserImg{
+     height: 32px;
+     width: 32px;
+     border-radius: 50px;
+     object-fit: cover;
+     margin-right: 10px;
+  }
+  
+  .userListEdit{
+     border: none;
+     border-radius: 10px;
+     padding: 5px 10px;
+     background-color: #E71D1D;
+     color: white;
+     margin-right: 20px;
+  }
+  
+  .userListDelete{
+     cursor: pointer;
+  }
+
+  .user{
+     flex: 4;
+     padding: 20px;
+ }
+ 
+ .userTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ 
+ .userAddButton{
+     width: 80px;
+     border: none;
+     padding: 5px;
+     background-color: #E71D1D;
+     border-radius: 5px;
+     cursor: pointer;
+     color: white;
+     font-size: 16px;
+ }
+ 
+ .userContainer{
+   display: flex;
+ }
+ 
+ .userShow{
+   flex: 1;
+   padding: 20px;
+   box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.75);
+   margin-top: 20px;
+ }
+ 
+ .userUpdate{
+     flex: 2;
+     padding: 20px;
+     box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.75);
+     -webkit-box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.75);
+     margin-left: 20px;
+     margin-top: 20px;
+   }
+ 
+   .userShowTop{
+     display: flex;
+     align-items: center;
+   }
+ 
+   .userShowImg{
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     object-fit: cover;
+     
+   }
+ 
+   .userShowTopTitle{
+     display: flex;
+     flex-direction: column;
+     margin-left: 20px;
+   }
+ 
+   .userShowUsername{
+     font-weight: 700;
+   }
+ 
+   .userShowUserTitle{
+     font-weight: 200;
+   }
+   .userShowBottom{
+    margin-top: 20px;
+   }
+ 
+   .userShowInfoTitle{
+     font-size: 14px;
+     font-weight: 600;
+     color: rgb(175, 170, 170);
+   }
+   
+   .userShowInfo{
+     display: flex;
+     align-items: center;
+     margin: 20px 0px;
+     color: #444; 
+   }
+  .userShowIcon{
+     font-size: 16px !important;
+     margin-left
+     : 10px;
+  }
+ 
+  .userShowInfoTitle{
+     margin-left: 10px;
+  }
+ 
+  .userUpdateButtonIcon{
+     cursor: pointer;
+  }
+ 
+  .userUpdateImg{
+     width: 100px;
+     height: 100px;
+     border-radius: 10px;
+     object-fit: cover;
+     margin-right: 10px;
+  }
+ 
+  .userUpdateForm{
+     display: flex;
+     margin-top: 20px;
+     justify-content: space-between;
+  }
+  .userUpdateTitle{
+     font-size: 24px;
+     font-weight: 600;
+  }
+ 
+ 
+  .userUpdateItem{
+     display: flex;
+     flex-direction: column;
+     margin-top: 10px;
+  }
+ 
+  .userUpdateItem>label{
+     margin-bottom: 5px;
+     font-style: 14px;
+ }
+ 
+ 
+ .userUpdateInput{
+     border: none;
+     width: 250px;
+     border-bottom: 1px solid gray;
+ }
+ 
+ .userUpdateRight{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+ 
+ .userUpdateButton{
+     border-radius: 5px;
+     border: none;
+     padding: 5px;
+     cursor: pointer;
+     background-color: #E71D1D;
+     color: white;
+ }
+ 
+ 
+   
+
+.widgetSm{
+     width: 465px;
+     box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.75);
+     -webkit-box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.75);
+     padding: 20px;
+     margin-right: 20px;
+     margin-bottom: 20px;
+  
+ }
+ 
+ .widgetSmTitle{
+     font-size: 22px;
+     font-weight: 600;
+ }
+ 
+ .widgetSmImg{
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     object-fit: cover;
+ }
+ 
+ .widgetSmList{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+ 
+ .widgetSmListItem{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: 20px 0px;
+ }
+ 
+ .widgetSmUser{
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .widgetSmUsername{
+     font-weight: 600;
+ }
+ 
+ .widgetSmUserTitle{
+     font-weight: 300;
+ }
+ 
+ .widgetSmButton{
+     display: flex;
+     align-items: center;
+     border: none;
+     border-radius: 10px;
+     padding: 7px 10px;
+     background-color: #eeeef7;
+     color: #555;
+     cursor: pointer;
+ }
+ 
+ .widgetSmIcon{
+     font-size: 16px !important;
+     margin-right: 5px;
+ }
+
+.widgetLg{
+     width: 465px;
+     box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.75);
+     -webkit-box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.75);
+     padding: 20px;
+     margin-bottom: 20px;
+     border-radius: 2px;
+ 
+ }  
+   .widgetLgTitle {
+     font-size: 22px;
+     font-weight: 600;
+   }
+   
+   .widgetLgTable{
+     width: 100%;
+     border-spacing: 20px;
+   }
+   
+   .widgetLgTh{
+     text-align: left;
+   }
+   
+   .widgetLgUser{
+     display: flex;
+     align-items: center;
+     font-weight: 600;
+     padding: 10px;
+     margin-bottom: 10px;
+   }
+   
+   
+   .widgetLgDate,.widgetLgAmount{
+     font-weight: 300;
+   }
+   
+   .widgetLgButton {
+     padding: 5px 7px;
+     border: none;
+     border-radius: 10px;
+   }
+   
+
+   .productList{
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 100px;
+ }
+ 
+ .productListItem{
+     display: flex;
+     align-items: center;
+ }
+ 
+ .productListImg {
+     width: 32px;
+     height: 32px;
+     border-radius: 50%;
+     object-fit: cover;
+     margin-right: 10px;
+   }
+ 
+ .productListEdit{
+     border: none;
+     border-radius: 10px;
+     padding: 5px 10px;
+     background-color: #E71D1D;
+     color: white;
+     cursor: pointer;
+     margin-right: 20px;
+ }
+ 
+ .productListDelete{
+     cursor: pointer;
+ }
+
+
+
+.topbar{
+     width: 100%;
+     height: 60px;
+     background-color: #f6f6f6;
+     position: sticky;
+     top: 0px;
+     z-index: 999;
+     margin-bottom: 30px;
+ }
+ 
+ .topbarWrapper{
+     height: 100%;
+     padding: 0px 20px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ .logo{
+     font-weight: bold;
+     font-size: 30px;
+     color: #E71D1D;
+     text-decoration: none;
+
+   
+ }
+ 
+ .topbarRight{
+     display: flex;
+     align-items: center;
+ }
+ 
+ .topbarIconsContainer{
+    position: relative;
+    cursor: pointer;
+    margin: 5px;
+    margin-right: 10px;
+    color: #555;
+ }
+
+ .topbarIconsContainer a {
+  color: #555
+ }
+ 
+ .topIconBadge{
+     width: 15px;
+     height: 15px;
+     position: absolute;
+     top: -3px;
+     right: 1px;
+     background-color: red;
+     color: white;
+     border-radius: 60%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 10px;
+ }
+ 
+ .topAvatar{
+     height: 40px;
+     width: 40px;
+     border-radius: 50%;
+ }
+
+
+
+.featured{
+     width: 100%;
+     height: 350px;
+     display: flex;
+ }
+ 
+ .featuredItem{
+     flex: 1;
+     margin: 0px 20px;
+     padding: 30px;
+     border-radius: 2px;
+     cursor: pointer;
+     box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.75);
+     -webkit-box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.75);
+     -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+ }
+ 
+ .featuredTitle{
+     font-size: 25px;
+     margin:  30px 10px;
+ }
+ 
+ .featuredMoneyContainer{
+     margin: 20px 0px;
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ .featuredMoneyContainer div{
+     display: flex;
+ }
+ 
+ .featuredMoney{
+     font-size: 45px;
+     font-weight: 600;
+ }
+ 
+ .featuredMoneyRate{
+     display: flex;
+     font-size: 25px;
+     align-items: center;
+     margin-left: 10px;
+ }
+ 
+ .featuredIcon{
+     font-size: 14px;
+     margin-left: 5px;
+     color: green;
+ }
+ 
+ .featuredIconNegative{
+     font-size: 14px;
+     margin-left: 5px;
+     color: red;
+ }
+ 
+ .featuredSub{
+     color: grey;
+     font-size: 18px;
+ }
+ 
+ 
+
+.chart{
+     margin: 20px;
+     padding: 20px;
+     box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.75);
+     -webkit-box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.75);
+     width: 950px;
+     border-radius: 2px;
+ }
+ 
+ .chartTitle{
+   margin-bottom: 20px;   
+ }
+
+
+ .select-container{
+  margin: 20px  auto 20px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 800px;
+  height: 400px;
+  background-color: #f6f6f6;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+ }
+
+ .select-container h2{
+     margin: 0 30px;
+ }
+
+ .select-container select {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin: 50px;
+  width: 160px;
+  outline: none;
+ }
+
+ .select-container input {
+  display: flex;
+  margin: 50px;
+  height: 40px;
+  width: 160px;
+  outline: none;
+ }
+
+
+
+
+.select-container button  {
+  display: flex;
+  height: 25px;
+  margin: 10px auto;
+  height: 35px;
+  width: 160px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+

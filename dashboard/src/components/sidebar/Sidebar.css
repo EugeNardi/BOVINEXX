@@ -17,10 +17,15 @@
 }
 
 .sidebarTitle{
+<<<<<<< HEAD
     font-size: 22px;
     color: inherit;
   
 
+=======
+    font-size: 14px;
+    color: rgb(187, 186, 186);
+>>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
 }
 
 .sidebarList{
@@ -30,13 +35,35 @@
 }
 
 .sidebarListItem{
+<<<<<<< HEAD
     padding: 5px;
     margin-bottom: 5px;
+=======
+    padding: 4px;
+>>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
     cursor: pointer;
     display: flex;
     align-items: center;
     border-radius: 10px;
     width: 120px;
+<<<<<<< HEAD
+=======
+
+}
+
+.sidebarListItem a:hover{
+    color: rgb(187, 186, 186);
+}
+
+.sidebarListItem:hover{
+    color: rgb(187, 186, 186);
+}
+
+.sidebarIcon{
+    margin-right: 5px;
+    font-size: 20px !important; 
+
+>>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
 
 }
 

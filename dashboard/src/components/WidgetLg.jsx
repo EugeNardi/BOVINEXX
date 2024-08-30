@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /*
+=======
+
+>>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
 
 const WidgetLg = () => {
 

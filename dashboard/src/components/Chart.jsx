@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import Partos from "../pages/Partos";
+=======
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+>>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
 
 
 export default function Chart () {

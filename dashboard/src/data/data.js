@@ -45,7 +45,22 @@ export const userData = [
   ];
 
 
+<<<<<<< HEAD
 
+=======
+
+
+  export const productRows = [
+    {
+      id: 1,
+      name: "017",
+      img:
+        "",
+      stock: "44nt",
+      status: "Completa",
+      price: "12/06/23",
+    },
+>>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
 
 
 

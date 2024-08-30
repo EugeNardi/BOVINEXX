@@ -5,13 +5,20 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon api/index.js"
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+<<<<<<< HEAD
     "busboy": "^1.6.0",
+=======
+>>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "express": "^4.18.2",

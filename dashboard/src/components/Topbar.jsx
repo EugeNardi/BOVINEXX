@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import SettingsIcon from '@mui/icons-material/Settings';
 import LogoutIcon from '@mui/icons-material/Logout';
 import { useContext, useEffect, useState } from 'react';
@@ -107,6 +108,11 @@ export default Topbar;
 
 /*import SettingsIcon from '@mui/icons-material/Settings';
 import LogoutIcon from '@mui/icons-material/Logout';
+=======
+import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
+import SettingsIcon from '@mui/icons-material/Settings';
+import LogoutIcon from '@mui/icons-material/Logout';
+>>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
 import { useContext } from 'react';
 import { UserContext } from '../UserContex';
 import { useEffect } from 'react';
@@ -124,13 +130,19 @@ const Topbar = () => {
     }).then((response) => {
       response.json().then((userInfo) => {
         setUserInfo(userInfo);
+<<<<<<< HEAD
         
+=======
+>>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
       });
     });
   }, []);
 
+<<<<<<< HEAD
   console.log(userInfo);
 
+=======
+>>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
   function logout() {
     fetch("http://localhost:4000/logout", {
       credentials: "include",
@@ -148,7 +160,14 @@ const Topbar = () => {
                 <a  href="/home" className="logo">Bovinex</a>
             </div>
             <div className="topbarRight">
+<<<<<<< HEAD
               
+=======
+                <div className="topbarIconsContainer">
+                <NotificationsNoneIcon/>
+                <span className="topIconBadge">3</span>
+                </div>
+>>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
                 <div className="topbarIconsContainer">
                 <SettingsIcon/>
                 </div>
@@ -164,7 +183,11 @@ const Topbar = () => {
   )
 }
 
+<<<<<<< HEAD
 export default Topbar
 */
 
 
+=======
+export default Topbar
+>>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8

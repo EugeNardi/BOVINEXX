@@ -1,15 +1,5 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
-
-.background-image {
-    background-image: url('https://www.casamu.com.ar/wp-content/uploads/2017/10/IMG_1243.jpg'); 
-=======
 .background-image {
     background-image: url('https://www.ctuyuti.com.ar/wp-content/uploads/2020/07/vaquillonas-polled-hereford-tuyuti.jpg'); /* Reemplaza con la ruta de tu imagen de fondo */
->>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -52,31 +42,17 @@
     margin-left:20px;
 }
 
-<<<<<<< HEAD
-/*font-family: 'Merriweather', serif;*/
-.logo{
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    color: inherit; 
-    font-size: 30px;
-=======
 .logo{
     font-weight: bold;
     font-size: 30px;
-    color: #E71D1D;
->>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
+    color: red;
     text-decoration: none;
 }
 
 
 
-<<<<<<< HEAD
- form.register input{
-    width: 300px !important;
-=======
 form.register input{
     width: 300px;
->>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
     margin-bottom: 15px;
     outline: none;
 
@@ -85,25 +61,11 @@ form.register input{
 
 .register button{
     border: none;
-<<<<<<< HEAD
-    background-color: black;
-    border-radius: 5px;
-    width: 300px;
-    height: 40px;
-    margin-bottom: 5px;
-    color: white;
-    font-size: 18px;
-=======
     background-color: red;
     width: 300px;
     margin-bottom: 5px;
->>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
 }
 
-form a{
-    color:black
-
-}
 
 form h1{
     margin-top: 25px;

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState, useEffect } from 'react';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
@@ -69,6 +70,11 @@ const Featuredinfo = () => {
 export default Featuredinfo;
 
 /*
+=======
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
+
+>>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { DateCalendar } from '@mui/x-date-pickers/DateCalendar';
@@ -83,6 +89,7 @@ const Featuredinfo = () => {
             <div className="featuredMoneyContainer">
                 <div>
 
+<<<<<<< HEAD
                 <span className="featuredMoney">10</span>
                 <span className="featuredMoneyRate">VA</span>
               
@@ -93,13 +100,22 @@ const Featuredinfo = () => {
                 <span className="featuredMoney">44</span>
                 <span className="featuredMoneyRate">TO</span>
 
+=======
+                <span className="featuredMoney">44</span>
+                <span className="featuredMoneyRate">nt<ArrowUpwardIcon className='featuredIcon'/></span>
+              
+>>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
                 </div>
 
                <div> 
  
                 <span className="featuredMoney">12</span>
+<<<<<<< HEAD
                 <span className="featuredMoneyRate">TE</span>
                 
+=======
+                <span className="featuredMoneyRate">vq<ArrowDownwardIcon className='featuredIconNegative'/></span>
+>>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
                 
                </div>
 
@@ -121,5 +137,9 @@ const Featuredinfo = () => {
   )
 }
 
+<<<<<<< HEAD
 export default Featuredinfo
 */
+=======
+export default Featuredinfo
+>>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
