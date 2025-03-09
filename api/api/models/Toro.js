@@ -9,6 +9,7 @@ const ToroSchema =  new Schema({
     rp:String,
     nacimiento:Date,
     padre:String,
+    madre:String,
     pn:String, 
     pd:String,
     p12:String,
