@@ -22,7 +22,8 @@ export default function ListaMadre() {
   const [isDeleting, setIsDeleting] = useState(false);
 
   useEffect(() => {
-    fetch('http://localhost:4000/getmadre')
+      fetch("http://localhost:4000/getmadre")
+      
       .then((response) => response.json())
       .then((data) => setData(data))
       .catch((error) => console.error('Error fetching data:', error));
@@ -38,24 +39,35 @@ export default function ListaMadre() {
     setSelectedId(null);
   };
 
+  const fetchMadres = () => {
+    fetch("http://localhost:4000/getmadres")
+      .then((response) => response.json())
+      .then((data) => {
+        setData(data); // Actualiza el estado con los datos más recientes
+      })
+      .catch((error) => console.error("Error al cargar los datos:", error));
+  };
+  
   const handleDelete = () => {
     setIsDeleting(true);
     fetch(`http://localhost:4000/deletemadre/${selectedId}`, {
-      method: 'DELETE',
+      method: "DELETE",
     })
       .then((response) => response.json())
       .then((result) => {
-        if (result.message === 'Vaca eliminada exitosamente') {
-          setData(data.filter((item) => item._id !== selectedId));
-          handleClose(); // Close modal
-          window.location.reload(); // Refresh page
+        if (result.message === "Vaca eliminada exitosamente") {
+          fetchMadres(); // Recarga la lista completa desde el backend
+          handleClose(); // Cierra el modal
         } else {
-          console.error('Error al eliminar la vaca:', result.message);
+          console.error("Error al eliminar la vaca:", result.message);
         }
       })
-      .catch((error) => console.error('Error en la solicitud de eliminación:', error))
+      .catch((error) => console.error("Error en la solicitud de eliminación:", error))
       .finally(() => setIsDeleting(false));
   };
+  
+  
+  
   const columns = [
     { field: "rp", headerName: "RP", width: 80 },
     { field: "nacimiento", valueGetter: (v) => v.value.split('T')[0], headerName: "NACIMIENTO", width: 120 },
@@ -90,7 +102,7 @@ export default function ListaMadre() {
   const filteredData = data.filter(item =>
     item.rp.toLowerCase().includes(searchTerm.toLowerCase())
   );
-
+  
   return (
     <>
       <Topbar />

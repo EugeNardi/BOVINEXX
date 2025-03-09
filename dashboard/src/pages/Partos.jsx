@@ -1,3 +1,5 @@
+
+
 import { useEffect, useRef, useState } from "react";
 import * as am5 from "@amcharts/amcharts5";
 import * as am5xy from "@amcharts/amcharts5/xy";
@@ -94,7 +96,7 @@ const Partos = () => {
       am5xy.ValueAxis.new(root, {
         renderer: am5xy.AxisRendererY.new(root, {}),
         min: 0, // Mínimo del eje Y
-        max: 5, // Mínimo del eje
+        max: 4, // Mínimo del eje
         strictMinMax: true,
         extraMin: 0.1,
         extraMax: 0.1,
@@ -117,11 +119,15 @@ const Partos = () => {
 
     // Set the color and width of the columns
     series.columns.template.setAll({
-      fill: am5.color(0x555555), // dark gray
-      strokeOpacity: 0,
-      strokeWidth: 2, // Ancho de las columnas
-      width: am5.percent(70), // Ajusta el ancho de la columna
+      fill: am5.color(0x808080), // Gris claro para las barras
+      stroke: am5.color(0x505050), // Gris oscuro para el borde
+      strokeOpacity: 1, // Hacer el borde completamente visible
+      strokeWidth: 1, // Aumentar el grosor del borde para que sea más visible
+      width: am5.percent(95), // Aumentar aún más el ancho de las columnas
+      cornerRadiusTL: 6, // Bordes redondeados con un poco más de radio
+      cornerRadiusTR: 6,
     });
+    
 
     chart.set(
       "scrollbarX",

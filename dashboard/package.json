@@ -10,17 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
     "@amcharts/amcharts5": "^5.10.0",
     "@amcharts/amcharts5-fonts": "^5.0.1",
     "@amcharts/amcharts5-geodata": "^5.1.4",
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
-=======
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
->>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
     "@fullcalendar/daygrid": "^6.1.8",
     "@fullcalendar/list": "^6.1.8",
     "@fullcalendar/timegrid": "^6.1.8",
@@ -36,13 +31,12 @@
     "@nivo/pie": "^0.83.0",
     "axios": "^1.7.4",
     "boxicons": "^2.1.4",
-<<<<<<< HEAD
     "date-fns": "^2.30.0",
-=======
->>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
     "dayjs": "^1.11.9",
     "formik": "^2.4.0",
     "framer-motion": "^11.2.12",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.2",
     "lucide-react": "^0.424.0",
     "qrcode.react": "^3.1.0",
     "react": "^18.2.0",

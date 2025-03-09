@@ -11,7 +11,7 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: 800,
-  height: 590,
+  height: 660,
   bgcolor: 'background.paper',
   border: '1px solid #ddd',
   boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
@@ -30,6 +30,7 @@ export default function ModalToro() {
   const [rp, setRp] = useState("");
   const [nacimiento, setNacimiento] = useState("");
   const [padre, setPadre] = useState("");
+  const [madre, setMadre] = useState("");
   const [pn, setPn] = useState("");
   const [pd, setPd] = useState("");
   const [p12, setP12] = useState("");
@@ -51,6 +52,7 @@ export default function ModalToro() {
     formData.append("rp", rp);
     formData.append("nacimiento", nacimiento);
     formData.append("padre", padre);
+    formData.append("madre", madre);
     formData.append("pn", pn);
     formData.append("pd", pd);
     formData.append("p12", p12);
@@ -188,6 +190,15 @@ export default function ModalToro() {
                   placeholder="MITO"
                   value={padre}  
                   onChange={(ev) => setPadre(ev.target.value)}
+                />
+              </div>
+
+              <div className="column">
+                <h6>MADRE</h6>
+                <input
+                  placeholder="MITO"
+                  value={madre}  
+                  onChange={(ev) => setMadre(ev.target.value)}
                 />
               </div>
 

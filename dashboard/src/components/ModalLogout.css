@@ -74,7 +74,7 @@ h3 {
 }
 
 .confirmButton {
-  background-color: var(--destructive);
+  background-color:var(--destructive);
   color: var(--destructive-foreground);
 }
 

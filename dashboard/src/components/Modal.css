@@ -128,7 +128,7 @@ h5, h6 {
   border-radius: 4px;
   cursor: pointer;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 8px;
   transition: background-color 0.3s, transform 0.3s;
 }
 

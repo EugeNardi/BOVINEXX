@@ -1,14 +1,17 @@
+
+
+
 import Sidebar from "../components/Sidebar/Sidebar";
 import Topbar from "../components/Topbar";
 import { useState, useEffect } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import "./TTabla.css";
 import QRCode from "qrcode.react";
 
 
 const Ternero = () => {
   const [terneros, setTerneros] = useState(null);
-  const navigate = useNavigate();
+
   const { id } = useParams();
 
   useEffect(() => {
@@ -21,10 +24,7 @@ const Ternero = () => {
 
   if (!terneros) return "";
 
-  const handleNavigate = (e) => {
-    e.preventDefault();
-    navigate('/terneros');
-  }
+ 
 
   return (
     <> 
@@ -73,7 +73,7 @@ const Ternero = () => {
               <span className="value">{terneros.peso}</span>
             </div>
             <div className="detail">
-              <span className="label">Circunferencia Escrotal (Cm):</span>
+              <span className="label">Circunferencia Escrotal:</span>
               <span className="value">{terneros.ce}</span>
             </div>
             <div className="detail">
@@ -82,7 +82,7 @@ const Ternero = () => {
             </div>
           </div>
         </div>
-        <button className="historypush" onClick={handleNavigate}>Lista de Terneros</button>
+
       </div>
     </>
   );

@@ -28,7 +28,7 @@ const Register = () => {
        <div className="background-image">
 
         <div className="navbar">
-        <a  href="#" className="logo">Bovinex</a>
+        <a  href="#" className="logo">Vacuno</a>
         </div>
  
     
@@ -36,10 +36,7 @@ const Register = () => {
           <form className="register" onSubmit={register} >
           <h1>Registrate</h1>
           <input 
-<<<<<<< HEAD
           className="input"
-=======
->>>>>>> 6ed720162ad08a400a54cffea54f0764e68f48a8
           type="text" 
           placeholder="Nombre de usuario" 
           value={username}

@@ -39,7 +39,7 @@ const Login = () => {
       <div className="background-image">
 
 <div className="navbar">
-<a  href="#" className="logo">Bovinex</a>
+<a  href="#" className="logo">Vacuno</a>
 </div>
 
 
